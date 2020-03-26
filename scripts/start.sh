@@ -16,4 +16,4 @@ then
         USERNAME=couchpotato
 fi
 
-su $USERNAME -c '/opt/couchpotato/CouchPotato.py --data_dir=/config'
+su $USERNAME -c '/opt/couchpotato/CouchPotato.py --config_file=/config/config.ini --data_dir=/config/data'
